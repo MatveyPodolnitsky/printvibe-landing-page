@@ -59,10 +59,10 @@ function Index() {
         </div>
       </header>
 
-      <section id="top" className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-20 md:grid-cols-2 md:py-28">
+      <section id="top" className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-20 lg:grid-cols-2 lg:py-28">
         <div>
           <p className="mb-4 inline-block bg-primary px-3 py-1 font-display text-xs font-bold uppercase text-primary-foreground">Салон печати · Гомель</p>
-          <h1 className="font-display text-4xl font-black leading-tight md:text-6xl">
+          <h1 className="font-display text-4xl font-black leading-tight lg:text-6xl">
             Качественная печать <span className="text-primary">с вашим</span> <span className="text-accent">дизайном</span>
           </h1>
 
