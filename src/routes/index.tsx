@@ -63,8 +63,9 @@ function Index() {
         <div>
           <p className="mb-4 inline-block bg-primary px-3 py-1 font-display text-xs font-bold uppercase text-primary-foreground">Салон печати · Гомель</p>
           <h1 className="font-display text-4xl font-black leading-tight md:text-6xl">
-            Печатаем <span className="text-primary">ваш</span> <span className="text-accent">вайб</span>
+            Качественная печать <span className="text-primary">с вашим</span> <span className="text-accent">дизайном</span>
           </h1>
+
           <p className="mt-6 max-w-md text-lg text-muted-foreground">
             Футболки, худи, кружки, фото и наклейки с любым дизайном. Поможем с макетом и сделаем быстро.
           </p>
