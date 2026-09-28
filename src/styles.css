@@ -39,6 +39,9 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
+  --color-ink: var(--ink);
+  --font-display: "Unbounded", sans-serif;
+  --font-sans: "Manrope", sans-serif;
   --color-accent-foreground: var(--accent-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
