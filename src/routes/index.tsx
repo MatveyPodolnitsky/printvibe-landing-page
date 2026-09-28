@@ -116,12 +116,26 @@ function Index() {
             <h2 className="font-display text-3xl font-black md:text-5xl">Контакты</h2>
             <p className="mt-4 max-w-md opacity-85">Напишите нам — обсудим идею, подберём изделие и рассчитаем стоимость.</p>
           </div>
-          <ul className="space-y-5 text-lg">
-            <li><span className="block text-sm opacity-70">Город</span>Гомель, Беларусь</li>
-            <li><span className="block text-sm opacity-70">Telegram</span><a href={TG} target="_blank" rel="noreferrer" className="font-bold underline-offset-4 hover:underline">@ilw_dtl</a></li>
-            <li><span className="block text-sm opacity-70">Instagram</span><a href={IG} target="_blank" rel="noreferrer" className="font-bold underline-offset-4 hover:underline">@printvibe.by</a></li>
-            <li className="pt-2"><Btn href={TG} alt>Заказать печать</Btn></li>
-          </ul>
+          <div className="space-y-8">
+            <ul className="space-y-5 text-lg">
+              <li><span className="block text-sm opacity-70">Адрес</span>Гомель, ул. М. Г. Ефремова, 16, этаж 2</li>
+              <li><span className="block text-sm opacity-70">Телефон</span><a href="tel:+375257838628" className="font-bold underline-offset-4 hover:underline">+375 25 783-86-28</a></li>
+              <li><span className="block text-sm opacity-70">Telegram</span><a href={TG} target="_blank" rel="noreferrer" className="font-bold underline-offset-4 hover:underline">@ilw_dtl</a></li>
+              <li><span className="block text-sm opacity-70">Instagram</span><a href={IG} target="_blank" rel="noreferrer" className="font-bold underline-offset-4 hover:underline">@printvibe.by</a></li>
+            </ul>
+            <div className="max-w-sm border border-primary-foreground/25 bg-primary-foreground/10 p-5">
+              <h3 className="font-display text-sm font-bold uppercase tracking-wide">Часы работы</h3>
+              <dl className="mt-3 space-y-1.5 text-sm">
+                {[["Понедельник — пятница", "10:00–18:00"], ["Суббота", "10:00–14:00"], ["Воскресенье", "Выходной"]].map(([d, h]) => (
+                  <div key={d} className="flex justify-between gap-4">
+                    <dt className="opacity-80">{d}</dt>
+                    <dd className="font-medium">{h}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <Btn href={TG} alt>Заказать печать</Btn>
+          </div>
         </div>
       </section>
 
