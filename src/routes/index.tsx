@@ -50,7 +50,7 @@ function Index() {
     <div className="min-h-screen bg-background font-sans text-foreground">
       <header className="sticky top-0 z-20 border-b border-border bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
-          <a href="#top"><img src={logo.url} alt="PrintVibe" className="h-14 w-auto -my-2 scale-150 origin-left object-cover" style={{ objectPosition: "center", aspectRatio: "3/1" }} /></a>
+          <a href="#top"><img src={logo.url} alt="PrintVibe" className="h-14 w-auto object-cover" style={{ objectPosition: "center", aspectRatio: "3/1" }} /></a>
           <nav className="hidden gap-7 text-sm font-medium md:flex">
             <a href="#works" className="hover:text-primary">Работы</a>
             <a href="#reviews" className="hover:text-primary">Отзывы</a>
