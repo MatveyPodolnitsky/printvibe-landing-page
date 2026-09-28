@@ -112,9 +112,21 @@ function Index() {
 
       <section id="contacts" className="bg-primary py-20 text-primary-foreground">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-2">
-          <div>
+          <div className="flex flex-col">
             <h2 className="font-display text-3xl font-black md:text-5xl">Контакты</h2>
             <p className="mt-4 max-w-md opacity-85">Напишите нам — обсудим идею, подберём изделие и рассчитаем стоимость.</p>
+            <div className="mt-8 flex-1">
+              <div className="flex h-full max-w-lg flex-col border border-primary-foreground/25 bg-primary-foreground/10 p-3">
+                <h3 className="font-display text-sm font-bold uppercase tracking-wide">Как нас найти</h3>
+                <iframe
+                  title="Карта — PrintVibe, Гомель, ул. М. Г. Ефремова, 16"
+                  src={`https://yandex.ru/map-widget/v1/?text=${encodeURIComponent("Гомель, улица М. Г. Ефремова, 16")}&z=17`}
+                  loading="lazy"
+                  className="mt-3 min-h-[260px] w-full flex-1 border-0"
+                />
+                <p className="mt-2 text-xs opacity-70">Гомель, ул. М. Г. Ефремова, 16, этаж 2</p>
+              </div>
+            </div>
           </div>
           <div className="space-y-8">
             <ul className="space-y-5 text-lg">
